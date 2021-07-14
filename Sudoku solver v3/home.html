@@ -3,8 +3,195 @@
     <head>
         <title>Smart Sudoku Solver</title>
         <script src="main.js"></script>
+        <link rel="stylesheet" href="noStyle.css">
     </head>
     <body>
-        <p>helloWorld</p>
+        <div id = "all">
+            <div id = "upper">
+                <div id = "grid">
+                    <table>
+                    <tr id = "upperRowOuter">
+                        <td id = "leftColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "middleColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "rightColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                    </tr>
+                    <tr id = "middleRowOuter">
+                        <td id = "leftColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "middleColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "rightColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                    </tr>
+                    <tr id = "lowerRowOuter">
+                        <td id = "leftColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "middleColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                        <td id = "rightColumnOuter">
+                            <table>
+                                <tr id = "upperRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "middleRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                <tr id = "lowerRowOuter">
+                                    <td id = "leftColumnOuter"> <input type = "number"> </td>
+                                    <td id = "middleColumnOuter"> <input type = "number"> </td>
+                                    <td id = "rightColumnOuter"> <input type = "number"> </td>
+                                </tr>
+                                </table>
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+                <div id = "output">output</div>
+            </div>
+            <div id = "buttons">buttons</div>
+        </div>
     </body>
 </html>
